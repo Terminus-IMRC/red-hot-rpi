@@ -24,6 +24,9 @@
 #if !defined(__arm__) || defined(__aarch64__)
 #error "This code is for AArch32 only.  Use a suitable compiler."
 #endif
+#if !defined(__ARM_NEON)
+#error "This code is for NEON.  Specify suitable arch flags."
+#endif
 
 #include <stdio.h>
 #include <stdlib.h>
