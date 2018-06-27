@@ -12,6 +12,15 @@
  * List of NEON and VFP insns: http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0489i/Bcfjicfj.html
  */
 
+/*
+ * According to [1], Cortex-A57 has 2 Simple Cluter units, 1 Branch unit, 2
+ * Complex Cluster units, 1 Integer unit and 2 Load/Store units.  According to
+ * [2], it seems that Cortex-A53 has only one of the each units.
+ *
+ * [1]: https://pc.watch.impress.co.jp/video/pcw/docs/592/202/p21.pdf
+ * [2]: https://pc.watch.impress.co.jp/img/pcw/docs/569/691/221.jpg
+ */
+
 #if !defined(__arm__) || defined(__aarch64__)
 #error "This code is for AArch32 only.  Use a suitable compiler."
 #endif
