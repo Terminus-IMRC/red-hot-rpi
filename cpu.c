@@ -8,8 +8,8 @@
  */
 
 /*
- * List of ARM and Thumb insns: http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0489i/Cihedhif.html
- * List of NEON and VFP insns: http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.dui0489i/Bcfjicfj.html
+ * As for the lists of ARM instructions, see "Arm Compiler armasm User Guide"
+ * http://infocenter.arm.com/help/index.jsp?topic=/com.arm.doc.100069_0610_00_en/index.html .
  */
 
 /*
